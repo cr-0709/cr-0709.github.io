@@ -1,0 +1,138 @@
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+<script src="https://kit.fontawesome.com/c338d80081.js" crossorigin="anonymous"></script>
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px;
+}
+
+img {
+  margin-left: 12px;
+  margin-top: 12px;
+  border: 2.5px solid #5656a3;
+  border-radius: 50%;
+}
+
+#navegador ul{
+   list-style-type: none;
+   text-align: center;
+}
+#navegador li{
+   display: inline;
+   text-align: center;
+   margin: 0 10px 0 0;
+}
+#navegador li a {
+   padding: 2px 7px 2px 7px;
+   color: #666;
+   background-color: #eeeeee;
+   border: 1px solid #ccc;
+   text-decoration: none;
+}
+#navegador li a:hover{
+   background-color: #333333;
+   color: #ffffff;
+}
+
+.title{
+    color: #3d3d78;
+    width: 50%;
+    margin-left: 350px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulos{
+    color: #5656a3;
+    width: 40%;
+    margin-left: 1px;
+    border: 4px solid #de9747;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo2{
+    color: #3d3d78;
+    width: 50%;
+    margin-left: 350px;
+    font-family: 'Kalam', cursive;
+}
+
+.textos{  
+color: #59599e;
+    width: 40%;
+    margin-left: 1px;
+    border: 4px solid #de9747;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body{
+border: 10px solid #5656a3;
+padding: 5px;
+width: 1350 px;
+height: 100%;
+text-align: justify;
+font-family: 'Roboto', sans-serif;
+}
+
+
+/* Other style */
+
+body {
+  padding: 2%;
+}
+
+p {
+  padding: 2%;
+  background: #c6c6ff;
+  color: #000000;
+  border: 1px solid #5656a3;
+  border-radius: .25em;
+}
+
+#contenedor {
+ text-align: left;
+ width: 100%;
+ margin: auto;
+}
+
+#lateral {
+ width: 85%;  /* Este será el ancho que tendrá tu columna */
+ background-color: #CCCCCC;  /* Aquí pon el color del fondo que quieras para este lateral */
+ float: right; /* Aquí determinas de lado quieres quede esta "columna" */
+}
+
+#principal {
+ width: 14%;
+ float: left;
+ background-color: #FFFFFF;
+ /* border:#000000 1px solid; /* ponemos un donde para que se vea bonito */
+}
+/* Para limpiar los floats */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Flecha para hacer la pagina hacia arriba*/
+#subir__arriba{
+    width: 70px;
+    height: 70px;
+    background: rgb(187, 187, 187);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
